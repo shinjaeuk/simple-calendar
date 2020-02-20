@@ -82,8 +82,8 @@ root (Java Proejct )
 
 ## ERD
 
-- Mentor has available times ( Available time is 'true' at the first time)
-- If student make the schedule, available time will be updated by 'false'
+- Mentor has available times ( Available value is 'true' at the first time)
+- If student make the schedule, available value will be updated by 'false'
 
 ![image-20200220174307510](img/image-20200220174307510.png)
 
