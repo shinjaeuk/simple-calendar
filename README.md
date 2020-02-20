@@ -20,7 +20,7 @@ Access : http://localhost:8080/
 
 ## How
 
-> This web site is view of student. ( no metor side )
+> This web site is view of student. ( no mentor side )
 >
 > Mentor has availble time from 21, Feb 2020 to 23, Feb 2020
 >
