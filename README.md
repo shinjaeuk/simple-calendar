@@ -13,7 +13,7 @@ $ cd simple-calendar
 $ ./build.sh
 ....
 $ ./run.sh
-.... ( contro + c to exit )
+.... ( control + c to exit )
 ```
 
 Access : http://localhost:8080/
