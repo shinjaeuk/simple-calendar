@@ -76,7 +76,7 @@ root (Java Proejct )
 - GET /mentors/{id}/agenda (  get every data  )
   - Get a mentor's available times to make the schedule
   - If the mentor is not found, It returns HTTP 404 
-- POST /mentors/{id}/agenda/{id}, request body { reasone : '' }
+- POST /mentors/{id}/agenda/{id}, request body { reason : '' }
   - Make schedule
   - If time is not available, It returns HTTP 409
 
