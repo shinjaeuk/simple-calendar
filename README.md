@@ -73,7 +73,7 @@ root (Java Proejct )
 
 ## API
 
-- GET /mentors/{id}/agenda (  get ever data  )
+- GET /mentors/{id}/agenda (  get every data  )
   - Get a mentor's available times to make the schedule
   - If the mentor is not found, It returns HTTP 404 
 - POST /mentors/{id}/agenda/{id}, request body { reasone : '' }
