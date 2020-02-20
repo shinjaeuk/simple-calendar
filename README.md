@@ -3,7 +3,7 @@
 ## Requirements
 
 - JDK 8+ 
-- Node 12+
+- node 12+
 
 ## Run
 
