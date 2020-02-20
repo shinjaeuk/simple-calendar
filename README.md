@@ -24,7 +24,7 @@ Access : http://localhost:8080/
 >
 > Mentor has availble time from 21, Feb 2020 to 23, Feb 2020
 >
-> The meeting is only hour
+> The meeting is only 1 hour
 >
 > If restart app, data is reset  ( use to in-memory db - H2, data.sql)
 
