@@ -85,7 +85,7 @@ root (Java Proejct )
 - Mentor has available times ( Available time is 'true' at the first time)
 - If student make the schedule, available time will be updated by 'false'
 
-![image-20200220174307510](img/image-20200220174307510.png)
+![image-20200220184549351](img/image-20200220184549351.png)
 
 # Front-end
 
