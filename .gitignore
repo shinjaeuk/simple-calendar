@@ -1,0 +1,50 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+!**/webapp/**
+/src/main/resources/static
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+.gradle/6.0.1/vcsMetadata-1/
+build/generated/
+build/resources/main/templates/
+build/tmp/compileJava/
+build/tmp/compileTestJava/
+src/main/resources/templates/
+src/main/java/com/.DS_Store
+src/main/java/com/careerfoundar/.DS_Store
+src/test/java/com/carrefoundar/
+
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
