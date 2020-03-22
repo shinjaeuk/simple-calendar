@@ -3,7 +3,7 @@
 ## Requirements
 
 - JDK 8+ 
-- Node 12+
+- node 12+
 
 ## Run
 
@@ -13,18 +13,18 @@ $ cd simple-calendar
 $ ./build.sh
 ....
 $ ./run.sh
-.... ( contro + c to exit )
+.... ( control + c to exit )
 ```
 
 Access : http://localhost:8080/
 
 ## How
 
-> This web site is view of student. ( no metor side )
+> This web site is view of student. ( no mentor side )
 >
 > Mentor has availble time from 21, Feb 2020 to 23, Feb 2020
 >
-> The meeting is only hour
+> The meeting is only 1 hour
 >
 > If restart app, data is reset  ( use to in-memory db - H2, data.sql)
 
@@ -73,17 +73,17 @@ root (Java Proejct )
 
 ## API
 
-- GET /mentors/{id}/agenda (  get ever data  )
+- GET /mentors/{id}/agenda (  get every data  )
   - Get a mentor's available times to make the schedule
   - If the mentor is not found, It returns HTTP 404 
-- POST /mentors/{id}/agenda/{id}, request body { reasone : '' }
+- POST /mentors/{id}/agenda/{id}, request body { reason : '' }
   - Make schedule
   - If time is not available, It returns HTTP 409
 
 ## ERD
 
-- Mentor has available times ( Available time is 'true' at the first time)
-- If student make the schedule, available time will be updated by 'false'
+- Mentor has available times ( Available value is 'true' at the first time)
+- If student make the schedule, available value will be updated by 'false'
 
 ![image-20200220184549351](img/image-20200220184549351.png)
 
